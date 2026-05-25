@@ -1,0 +1,101 @@
+{
+  "spider": "./fty.jar;md5;3d161697458ecbcd2651a749db761ba1",
+  "wallpaper": "https://picsum.photos/1920/1080",
+  "warningText": "自用老系统专用精简源，无网盘无复杂加密，点开即播。",
+  "sites": [
+    {
+      "key": "csp_douban",
+      "name": "🌕┃豆瓣┃热播推荐",
+      "type": 3,
+      "api": "csp_DouDou",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
+      "key": "csp_SNzy",
+      "name": "🐉┃索尼┃高清直连",
+      "type": 1,
+      "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "49zy",
+      "name": " Lions┃四九┃极速采集",
+      "type": 1,
+      "api": "https://49zy1.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "feisu",
+      "name": "🛰️┃飞速┃秒播采集",
+      "type": 1,
+      "api": "https://www.feisuzyapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "filterable": 0
+    },
+    {
+      "key": "暴风采集",
+      "name": "🌪️┃暴风┃老牌影音",
+      "type": 1,
+      "api": "https://app.bfzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "百度",
+      "name": "🎏┃百度┃大厂采集",
+      "type": 1,
+      "api": "https://api.apibdzy.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "filterable": 0
+    },
+    {
+      "key": "奇虎资源",
+      "name": "🐯┃奇虎┃全能采集",
+      "type": 1,
+      "api": "https://caiji.qhzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "可可资源",
+      "name": "⛱┃可可┃综合采集",
+      "type": 1,
+      "api": "https://kekezy1.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "火狐",
+      "name": " Foxes┃火狐┃备用采集",
+      "type": 1,
+      "api": "https://hhzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1
+    },
+    {
+      "key": "csp_Ysj",
+      "name": "🎀┃异界┃动漫直连",
+      "type": 3,
+      "api": "csp_Ysj",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "csp_Dm84",
+      "name": "🚌┃动漫┃巴士连载",
+      "type": 3,
+      "api": "csp_Dm84",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    }
+  ]
+}
