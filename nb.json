@@ -7,9 +7,9 @@
       "name": "🌕┃豆瓣┃热播推荐",
       "type": 3,
       "api": "csp_DouDou",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
     },
     {
       "key": "csp_SNzy",
@@ -18,7 +18,16 @@
       "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "categories": [
+        "电影", "动作片", "喜剧片", "爱情片", "科幻片", "恐怖片",
+        "国产剧", "欧美剧", "韩剧", "日剧", "港剧", "台剧", "泰剧",
+        "综艺", "大陆综艺", "日韩综艺", "港台综艺", "欧美综艺",
+        "国产动漫", "日韩动漫", "欧美动漫", "动画片", "有声动漫",
+        "纪录片", "体育赛事", "篮球", "足球", "爽文短剧",
+        "4K电影", "邵氏电影", "Netflix电影", "Netflix自制剧",
+        "女频恋爱", "古装仙侠", "年代穿越", "脑洞悬疑", "现代都市"
+      ]
     },
     {
       "key": "暴风采集",
@@ -29,21 +38,39 @@
       "quickSearch": 1
     },
     {
-      "key": "百度",
+      "key": "baidazy",
       "name": "🎏┃百度┃大厂采集",
       "type": 1,
       "api": "https://api.apibdzy.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
-      "filterable": 0
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "categories": [
+        "电影", "动作片", "喜剧片", "爱情片", "科幻片", "恐怖片",
+        "大陆剧", "欧美剧", "韩剧", "日剧", "港澳剧", "台湾剧", "泰剧",
+        "综艺", "大陆综艺", "日韩综艺", "港台综艺", "欧美综艺",
+        "国产动漫", "日韩动漫", "欧美动漫", "动画电影", "有声动漫",
+        "纪录片", "体育赛事", "篮球", "足球", "爽文短剧",
+        "4K电影", "邵氏电影", "女频恋爱", "古装仙侠", "年代穿越", "脑洞悬疑", "现代都市"
+      ]
     },
     {
-      "key": "火狐",
-      "name": " Foxes┃火狐┃备用采集",
+      "key": "hhzyapi",
+      "name": "🦊┃火狐┃备用采集",
       "type": 1,
       "api": "https://hhzyapi.com/api.php/provide/vod/",
       "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "categories": [
+        "电影", "动作片", "爱情片", "喜剧片", "科幻片", "恐怖片", "剧情片", "战争片",
+        "内地剧", "欧美剧", "韩剧", "日剧", "香港剧", "台湾剧", "马泰剧",
+        "中国动漫", "日本动漫", "欧美动漫", "动画片",
+        "大陆综艺", "日韩综艺", "港台综艺", "欧美综艺",
+        "短剧", "体育赛事", "足球", "篮球", "伦理片", "悬疑片", "犯罪片"
+      ]
     },
     {
       "key": "csp_Ysj",
