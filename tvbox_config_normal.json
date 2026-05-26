@@ -1,0 +1,490 @@
+{
+  "spider": "https://ghproxy.com/https://raw.githubusercontent.com/flyhigherpi/99/main/jar/custom_spider.jar",
+  "wallpaper": "http://饭太硬.top/tv",
+  "sites": [
+    {
+      "key": "豆瓣",
+      "name": "🔍 豆瓣推荐",
+      "type": 3,
+      "api": "csp_Douban",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "indexs": 1
+    },
+    {
+      "key": "配置中心",
+      "name": "⚙️ 配置中心",
+      "type": 3,
+      "api": "csp_Config",
+      "searchable": 0,
+      "changeable": 0,
+      "indexs": 0
+    },
+    {
+      "key": "玩偶",
+      "name": "💓‍玩偶┃4K💓‍",
+      "type": 3,
+      "api": "csp_Wogg",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "新6V",
+      "name": "🎇新6V┃磁力🎇",
+      "type": 3,
+      "api": "csp_Xb6v",
+      "searchable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "爱看",
+      "name": "🎇爱看┃采集🎇",
+      "type": 3,
+      "api": "csp_IkanBot",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "虎牙",
+      "name": "🐯‍虎牙┃直播🐯‍",
+      "type": 3,
+      "api": "csp_LiveHuYa",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "斗鱼",
+      "name": "🐳斗鱼┃直播🐳",
+      "type": 3,
+      "api": "csp_LiveDouYu",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "哔哩",
+      "name": "🅱️哔哩┃直播🅱️",
+      "type": 3,
+      "api": "csp_LiveBiLi",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "短剧好看",
+      "name": "🍉短剧┃好看🍉",
+      "type": 3,
+      "api": "csp_DuanJuHaoKan",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "短剧小猫",
+      "name": "🍉短剧┃小猫🍉",
+      "type": 3,
+      "api": "csp_DuanJuQiMiao",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "魔都动漫",
+      "name": "🤡魔都┃动漫🤡",
+      "type": 3,
+      "api": "csp_AnimeMoDu",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "小爱动漫",
+      "name": "🤡小爱┃动漫🤡",
+      "type": 3,
+      "api": "csp_AnimeGiriGiri",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "番薯动漫",
+      "name": "🤡番薯┃动漫🤡",
+      "type": 3,
+      "api": "csp_AnimeFanShu",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "极品听书",
+      "name": "🎃‍极品┃听书🎃",
+      "type": 3,
+      "api": "csp_BookShiJie",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "悦庭听书",
+      "name": "🎃‍悦庭┃听书🎃",
+      "type": 3,
+      "api": "csp_BookYueTing",
+      "searchable": 1,
+      "changeable": 1,
+      "timeout": 120
+    },
+    {
+      "key": "多多儿歌",
+      "name": "👼多多┃儿歌👼",
+      "type": 3,
+      "api": "csp_ChildrenDuoDuo",
+      "searchable": 1,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 2
+      }
+    },
+    {
+      "key": "宝宝儿歌",
+      "name": "👼宝宝┃儿歌👼",
+      "type": 3,
+      "api": "csp_ChildrenBaoBao",
+      "searchable": 1,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 2
+      }
+    },
+    {
+      "key": "戏曲秒播",
+      "name": "🎎戏曲┃秒播🎎",
+      "type": 3,
+      "api": "csp_MusicLiYuan",
+      "searchable": 1,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 2
+      }
+    },
+    {
+      "key": "蜻蜓电台",
+      "name": "🎼蜻蜓┃电台🎼",
+      "type": 3,
+      "api": "csp_MusicQingTing",
+      "searchable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "易听音乐",
+      "name": "🎼易听┃音乐🎼",
+      "type": 3,
+      "api": "csp_Music163",
+      "searchable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "哔哩影视",
+      "name": " 🅱‍哔哩┃影视🅱‍",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": {
+        "json": "https://ghproxy.com/https://raw.githubusercontent.com/FongMi/TV/main/app/src/main/assets/bili.json"
+      }
+    },
+    {
+      "key": "哔哩戏曲",
+      "name": " 🅱‍哔哩┃戏曲🅱‍",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "ext": {
+        "json": "https://ghproxy.com/https://raw.githubusercontent.com/FongMi/TV/main/app/src/main/assets/bili_xiqu.json"
+      }
+    },
+    {
+      "key": "哔哩歌曲",
+      "name": " 🅱‍哔哩┃歌曲🅱‍",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "ext": {
+        "json": "https://ghproxy.com/https://raw.githubusercontent.com/FongMi/TV/main/app/src/main/assets/bili_song.json"
+      }
+    },
+    {
+      "key": "少儿教育",
+      "name": "📚少儿┃教育📚",
+      "type": 3,
+      "api": "csp_Bili",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": {
+        "json": "https://ghproxy.com/https://raw.githubusercontent.com/FongMi/TV/main/app/src/main/assets/bili_ertong.json"
+      }
+    },
+    {
+      "key": "小学课堂",
+      "name": "📚小学┃课堂📚",
+      "type": 3,
+      "api": "csp_Bili",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": {
+        "json": "https://ghproxy.com/https://raw.githubusercontent.com/FongMi/TV/main/app/src/main/assets/bili_xiaoxue.json"
+      }
+    },
+    {
+      "key": "初中课堂",
+      "name": "📚初中┃课堂📚",
+      "type": 3,
+      "api": "csp_Bili",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": {
+        "json": "https://ghproxy.com/https://raw.githubusercontent.com/FongMi/TV/main/app/src/main/assets/bili_chuzhong.json"
+      }
+    },
+    {
+      "key": "高中课堂",
+      "name": "📚高中┃课堂📚",
+      "type": 3,
+      "api": "csp_Bili",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": {
+        "json": "https://ghproxy.com/https://raw.githubusercontent.com/FongMi/TV/main/app/src/main/assets/bili_gaozhong.json"
+      }
+    },
+    {
+      "key": "WWE体育",
+      "name": "🌐WWE┃体育🌐",
+      "type": 3,
+      "api": "csp_SportWwe",
+      "searchable": 1,
+      "changeable": 0,
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "emby",
+      "name": "🀄️emby┃4K🀄️",
+      "type": 3,
+      "api": "csp_Emby",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "AList",
+      "name": "👁️Alist┃DIY👁️",
+      "type": 3,
+      "api": "csp_AList",
+      "searchable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "WebDav",
+      "name": "👁️WebDav┃DIY👁️",
+      "type": 3,
+      "api": "csp_WebDAV",
+      "searchable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "夸克",
+      "name": "💓我的┃夸克💓‍",
+      "type": 3,
+      "api": "csp_MyQuark",
+      "searchable": 1,
+      "changeable": 1,
+      "timeout": 50,
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "百度",
+      "name": "💓我的┃百度💓‍",
+      "type": 3,
+      "api": "csp_MyBaiDu",
+      "searchable": 1,
+      "changeable": 1,
+      "timeout": 50,
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "UC",
+      "name": "💓我的┃UC💓‍",
+      "type": 3,
+      "api": "csp_MyUcPan",
+      "searchable": 1,
+      "changeable": 1,
+      "timeout": 50,
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "115",
+      "name": "💓我的┃115💓‍",
+      "type": 3,
+      "api": "csp_MyPan115",
+      "searchable": 1,
+      "changeable": 1,
+      "timeout": 50,
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "123",
+      "name": "💓我的┃123💓‍",
+      "type": 3,
+      "api": "csp_MyPan123",
+      "searchable": 1,
+      "changeable": 1,
+      "timeout": 50,
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "天逸",
+      "name": "🎠给力┃天逸🎠",
+      "type": 3,
+      "api": "csp_SoTySo",
+      "searchable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "百度搜",
+      "name": "🎠给力┃百度🎠",
+      "type": 3,
+      "api": "csp_SoBaiDuSo",
+      "searchable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "找盘",
+      "name": "🎠找盘┃综合🎠",
+      "type": 3,
+      "api": "csp_SoZhaoPanSo",
+      "searchable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "push_agent",
+      "name": "📱 手机推送",
+      "type": 3,
+      "api": "csp_Push",
+      "searchable": 1,
+      "changeable": 0
+    }
+  ],
+  "doh": [
+    {
+      "name": "Google",
+      "url": "https://dns.google/dns-query",
+      "ips": ["8.8.4.4", "8.8.8.8"]
+    },
+    {
+      "name": "Cloudflare",
+      "url": "https://cloudflare-dns.com/dns-query",
+      "ips": ["1.1.1.1", "1.0.0.1"]
+    },
+    {
+      "name": "AdGuard",
+      "url": "https://dns.adguard.com/dns-query",
+      "ips": ["94.140.14.140", "94.140.14.141"]
+    }
+  ],
+  "rules": [
+    {
+      "name": "proxy",
+      "hosts": [
+        "raw.githubusercontent.com",
+        "googlevideo.com",
+        "cdn.v82u1l.com",
+        "cdn.iz8qkg.com",
+        "cdn.kin6c1.com",
+        "c.biggggg.com",
+        "c.olddddd.com",
+        "haiwaikan.com",
+        "www.histar.tv",
+        "youtube.com",
+        "uhibo.com",
+        ".*boku.*",
+        ".*nivod.*",
+        ".*ulivetv.*"
+      ]
+    },
+    {
+      "name": "海外看",
+      "hosts": ["haiwaikan"],
+      "regex": ["10.0099", "10.3333", "16.0599", "8.1748", "12.33", "10.85"]
+    },
+    {
+      "name": "火山嗅探",
+      "hosts": ["huoshan.com"],
+      "regex": ["item_id="]
+    },
+    {
+      "name": "抖音嗅探",
+      "hosts": ["douyin.com"],
+      "regex": ["is_play_url="]
+    },
+    {
+      "name": "農民嗅探",
+      "hosts": ["toutiaovod.com"],
+      "regex": ["video/tos/cn"]
+    }
+  ],
+  "ads": [
+    "mozai.4gtv.tv",
+    "static-mozai.4gtv.tv"
+  ],
+  "lives": [
+    {
+      "name": "默认直播",
+      "type": 0,
+      "url": "https://gh.llkk.cc/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
+      "playerType": 2
+    }
+  ]
+}
