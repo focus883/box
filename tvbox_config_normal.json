@@ -1,6 +1,6 @@
 {
-  "spider": "https://ghproxy.com/https://raw.githubusercontent.com/flyhigherpi/99/main/jar/custom_spider.jar",
-  "wallpaper": "http://饭太硬.top/tv",
+  "spider": "./spider.jar;md5;b65010f126553cb754b333fe1bef0567",
+  "wallpaper": ""http://王二小放牛娃牛逼.999888987.xyz",
   "sites": [
     {
       "key": "豆瓣",
