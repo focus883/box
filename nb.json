@@ -7,9 +7,9 @@
       "name": "🌕┃豆瓣┃热播推荐",
       "type": 3,
       "api": "csp_DouDou",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0
     },
     {
       "key": "csp_SNzy",
@@ -18,25 +18,18 @@
       "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1,
       "filterable": 1,
-      "categories": [
-        "电影", "动作片", "喜剧片", "爱情片", "科幻片", "恐怖片",
-        "国产剧", "欧美剧", "韩剧", "日剧", "港剧", "台剧", "泰剧",
-        "综艺", "大陆综艺", "日韩综艺", "港台综艺", "欧美综艺",
-        "国产动漫", "日韩动漫", "欧美动漫", "动画片", "有声动漫",
-        "纪录片", "体育赛事", "篮球", "足球", "爽文短剧",
-        "4K电影", "邵氏电影", "Netflix电影", "Netflix自制剧",
-        "女频恋爱", "古装仙侠", "年代穿越", "脑洞悬疑", "现代都市"
-      ]
+      "categories": ["动作片","喜剧片","科幻片","恐怖片","爱情片","剧情片","战争片","记录片","国产剧","欧美剧","香港剧","韩国剧","台湾剧","日本剧","海外剧","泰国剧","国产动漫","日韩动漫","欧美动漫","港台动漫","海外动漫","大陆综艺","港台综艺","日韩综艺","欧美综艺"]
     },
-    {
-      "key": "暴风采集",
-      "name": "🌪️┃暴风┃老牌影音",
+    {"key": "csp_非凡资源",
+      "name": "🥗┃非凡┃资源",
       "type": 1,
-      "api": "https://app.bfzyapi.com/api.php/provide/vod/",
+      "api": "http://cj.ffzyapi.com/api.php/provide/vod/",
+      "playurl": "json:http://jx.84jia.com/m3u8ts.php?url=",
       "searchable": 1,
-      "quickSearch": 1
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [  "动作片",  "喜剧片",  "科幻片",  "恐怖片",  "爱情片",  "剧情片",  "战争片",  "记录片",  "国产剧",  "欧美剧",  "香港剧",  "韩国剧",  "台湾剧",  "日本剧",  "海外剧",  "泰国剧",  "国产动漫",  "日韩动漫",  "欧美动漫",  "港台动漫",  "海外动漫",  "大陆综艺",  "港台综艺",  "日韩综艺",  "欧美综艺"]
     },
     {
       "key": "baidazy",
@@ -44,17 +37,7 @@
       "type": 1,
       "api": "https://api.apibdzy.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "categories": [
-        "电影", "动作片", "喜剧片", "爱情片", "科幻片", "恐怖片",
-        "大陆剧", "欧美剧", "韩剧", "日剧", "港澳剧", "台湾剧", "泰剧",
-        "综艺", "大陆综艺", "日韩综艺", "港台综艺", "欧美综艺",
-        "国产动漫", "日韩动漫", "欧美动漫", "动画电影", "有声动漫",
-        "纪录片", "体育赛事", "篮球", "足球", "爽文短剧",
-        "4K电影", "邵氏电影", "女频恋爱", "古装仙侠", "年代穿越", "脑洞悬疑", "现代都市"
-      ]
+      "filterable": 0
     },
     {
       "key": "hhzyapi",
@@ -62,25 +45,27 @@
       "type": 1,
       "api": "https://hhzyapi.com/api.php/provide/vod/",
       "searchable": 1,
-      "quickSearch": 1,
+      "quickSearch": 0,
       "filterable": 1,
-      "changeable": 1,
-      "categories": [
-        "电影", "动作片", "爱情片", "喜剧片", "科幻片", "恐怖片", "剧情片", "战争片",
-        "内地剧", "欧美剧", "韩剧", "日剧", "香港剧", "台湾剧", "马泰剧",
-        "中国动漫", "日本动漫", "欧美动漫", "动画片",
-        "大陆综艺", "日韩综艺", "港台综艺", "欧美综艺",
-        "短剧", "体育赛事", "足球", "篮球", "伦理片", "悬疑片", "犯罪片"
-      ]
+      "categories": [ "内地剧",  "动作片",  "科幻片",  "战争片",  "喜剧片",  "爱情片",  "恐怖片",  "犯罪片",  "剧情片",  "冒险片",  "记录片",  "韩剧",  "香港剧",  "台湾剧",  "欧美剧",  "日剧",  "马泰剧",  "体育赛事",  "综艺",  "动画片",  "中国动漫",  "日本动漫",  "欧美动漫"]
     },
     {
-      "key": "csp_Ysj",
-      "name": "🎀┃异界┃动漫直连",
-      "type": 3,
-      "api": "csp_Ysj",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
+      "key":"taopian",
+      "name":"🕹️淘片┃采集",
+      "type":1,
+      "api":"https://taopianapi.com/cjapi/mc/vod/json.html",
+      "searchable":1,
+      "filterable":0,
+      "categories": ["动漫/国产动漫","动漫/日本动漫","动漫/欧美动漫","动漫/海外动漫","综艺/大陆综艺","综艺/港台综艺","综艺/日韩综艺","综艺/欧美综艺","综艺/海外综艺","电视剧/国产剧","电视剧/香港剧","电视剧/欧美剧","电视剧/海外剧","电视剧/韩国剧","电视剧/日本剧","电视剧/泰国剧","电视剧/台湾剧","电影/战争片","电影/科幻片","电影/奇幻片","电影/冒险片","电影/动画片","电影/喜剧片","电影/动作片","电影/爱情片","电影/恐怖片","电影/惊悚片","电影/剧情片","电影/悬疑片","电影/纪录片"]
+    },
+   {
+     "key": "虎牙",
+     "name": "🐯虎牙采集",
+     "type": 1,
+     "api": "https://www.huyaapi.com/api.php/provide/vod/from/hym3u8",
+     "searchable": 1,
+     "quickSearch": 1,
+     "categories": [  "内地剧",  "动作片",  "科幻片",  "战争片",  "喜剧片",  "爱情片",  "恐怖片",  "犯罪片",  "剧情片",  "冒险片",  "记录片",  "韩剧",  "香港剧",  "台湾剧",  "欧美剧",  "日剧",  "马泰剧",  "体育赛事",  "综艺",  "动画片",  "中国动漫",  "日本动漫",  "欧美动漫"]
     },
     {
       "key": "lziapi",
@@ -94,16 +79,33 @@
          "电影", "电视剧", "综艺", "动漫", "国产剧", "欧美剧", "韩剧", "日剧", "港台剧", "动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "战争片", "纪录片"
       ]
     },
-    {"key":"csp_Dygang","name":"🧲电影港","type":3,"api":"csp_Dygang","searchable":1,"quickSearch":1,"filterable":1},
-    {"key":"csp_New6v","name":"🧲新6V","type":3,"api":"csp_New6v","searchable":1,"quickSearch":1,"filterable":1},
-    {"key":"csp_DyGod","name":"🧲电影天堂","type":3,"api":"csp_DyGod","searchable":1,"quickSearch":1,"filterable":1},
-    {"key":"csp_QnMp4","name":"🧲七妹","type":3,"api":"csp_QnMp4","searchable":1,"quickSearch":1,"filterable":1},
-    {"key":"csp_MeijuMi","name":"🧲美剧迷","type":3,"api":"csp_MeijuMi","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.meijumi.net/"},
-    {"key":"csp_SP360","name":"💘360","type":3,"api":"csp_SP360","searchable":1,"quickSearch":1,"filterable":1,"changeable":1},
-    {"key":"少儿","name":"🅱️少儿","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"style":{"type":"rect","ratio":1.433},"ext":{"json":"https://gh-proxy.com/raw.githubusercontent.com/yoursmile66/TVBox/main/json/少儿教育.json","commonConfig":"https://gh-proxy.com/raw.githubusercontent.com/yoursmile66/TVBox/main/json/peizhi.json","cookie":""}},
-    {"key":"小学","name":"🅱️小学","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"style":{"type":"rect","ratio":1.433},"ext":{"json":"https://gh-proxy.com/raw.githubusercontent.com/yoursmile66/TVBox/main/json/小学课堂.json","commonConfig":"https://gh-proxy.com/raw.githubusercontent.com/yoursmile66/TVBox/main/json/peizhi.json","cookie":""}},
-    {"key":"初中","name":"🅱️初中","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"style":{"type":"rect","ratio":1.433},"ext":{"json":"https://gh-proxy.com/raw.githubusercontent.com/yoursmile66/TVBox/main/json/初中课堂.json","commonConfig":"https://gh-proxy.com/raw.githubusercontent.com/yoursmile66/TVBox/main/json/peizhi.json","cookie":""}},
-    {"key":"高中","name":"🅱️高中","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"style":{"type":"rect","ratio":1.433},"ext":{"json":"https://gh-proxy.com/raw.githubusercontent.com/yoursmile66/TVBox/main/json/高中课堂.json","commonConfig":"https://gh-proxy.com/raw.githubusercontent.com/yoursmile66/TVBox/main/json/peizhi.json","cookie":""}}
+    {
+      "key": "csp_Ysj",
+      "name": "🎀┃异界┃动漫直连",
+      "type": 3,
+      "api": "csp_Ysj",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "csp_Anime1",
+      "name": "🌸┃日本┃动漫",
+      "type": 3,
+      "api": "csp_Anime1",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1 
+    },
+    {
+      "key": "csp_Ying",
+      "name": "💮┃樱花┃动漫",
+      "type": 3,
+      "api": "csp_Ying",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1 
+    },
     {
       "key": "csp_Dm84",
       "name": "🚌┃动漫┃巴士连载",
